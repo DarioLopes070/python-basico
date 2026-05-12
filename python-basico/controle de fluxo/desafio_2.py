@@ -1,5 +1,5 @@
 numero_secreto = 5
-descobriu = True
+descobriu = False
 
 
 if not descobriu: # condição para verificar se a pessoa não descobriu o número secreto
