@@ -19,7 +19,8 @@ while True: # exemplo de loop infinito
     opt = input("Escolha uma opção (1, 2) | (s para encerrar): ") # exemplo de entrada do usuário
     if opt == "s": # condição para verificar se a opção escolhida é igual a 's'
         break
-    elif opt != "1" and opt != "2": # condição para verificar se a opção escolhida é diferente de '1' e '2'
+    # elif opt != "1" and opt != "2": # condição para verificar se a opção escolhida é diferente de '1' e '2'
+    elif opt not in ("1", "2"): # condição para verificar se a opção escolhida é diferente de '1' e '2' usando o operador 'not in'
         print(f"Opção inválida!") # mensagem para indicar que a opção escolhida é inválida
         continue # exemplo de comando para pular a iteração do loop caso a opção escolhida seja inválida 
     print(f"Você escolheu a opção {opt}") # mensagem para indicar a opção escolhida pelo usuário
