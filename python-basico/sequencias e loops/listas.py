@@ -11,3 +11,17 @@ print("\n")
 print(lista_com_listas[0]) # acesso à primeira lista dentro da lista_com_listas
 print(lista_com_listas[1]) # acesso à segunda lista dentro da lista_com_listas
 print(lista_com_listas[-1][1]) # acesso ao segundo elemento da última lista dentro da lista_com_listas (acesso à string "False") 
+
+# AULA EXTRA PARA LISTAS: Compreensão de lista
+valores = list(range(10))
+# maiores_que_cinco = []
+# for valor in valores:
+#     if valor > 5:
+#         maiores_que_cinco.append(valores)
+maiores_que_cinco = [
+    valor   # RESULTADO
+    for valor in valores    # para cada ELEMENTO in SEQUÊNCIA 
+    if valor > 5    # se CONDIÇÃO
+]        
+print(valores)
+print(maiores_que_cinco)        
