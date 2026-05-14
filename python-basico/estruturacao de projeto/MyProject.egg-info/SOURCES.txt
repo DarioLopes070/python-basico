@@ -1,0 +1,7 @@
+setup.py
+MyProject.egg-info/PKG-INFO
+MyProject.egg-info/SOURCES.txt
+MyProject.egg-info/dependency_links.txt
+MyProject.egg-info/top_level.txt
+exemplo_importacao/__init__.py
+exemplo_importacao/meu_codigo.py
